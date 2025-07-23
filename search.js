@@ -16,8 +16,8 @@ function searchRankings(jsonFile, lang) {
         return;
       }
 
-      # resultsContainer.innerHTML = "<ol>" + filtered.map(item => 
-      #   `<li>${item.name} (${item.country}) - ${item.population.toLocaleString()}</li>`
-      # ).join("") + "</ol>";
+      resultsContainer.innerHTML = "<ol>" + filtered.map(item => 
+        `<li>${item.name} (${item.country}) - ${item.population.toLocaleString()}</li>`
+      ).join("") + "</ol>";
     });
 }
