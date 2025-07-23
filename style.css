@@ -31,3 +31,21 @@ footer {
   font-size: 0.9em;
   color: #666;
 }
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.ad {
+  margin: 20px auto;
+  text-align: center;
+}
+.search-bar {
+  text-align: center;
+  margin: 20px;
+}
+.search-bar input {
+  padding: 10px;
+  width: 60%;
+  font-size: 1em;
+}

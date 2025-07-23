@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>世界ランキング | TopLists</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx" crossorigin="anonymous"></script>
+</head>
+<body>
+<header><h1>世界ランキング</h1><p>世界のトップランキングを見る</p></header>
+<nav><ul>
+  <li><a href="top-cities-ja.html">🌆 人口の多い都市</a></li>
+  <li><a href="#">🏫 Best Universities</a></li>
+  <li><a href="#">🏙️ Tallest Buildings</a></li>
+</ul></nav>
+
+<div class="lang-switch">🌐 
+  <a href="index.html">中文</a> |
+  <a href="index-en.html">English</a> |
+  <a href="index-ja.html">日本語</a> |
+  <a href="index-ko.html">한국어</a>
+</div>
+
+<div class="search-bar">
+  <input type="text" id="search-input" placeholder="都市名または国名を入力..." onkeyup="searchRankings('cities.json', 'ja')"/>
+</div>
+<main id="results"></main>
+
+<div class="ad">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+       data-ad-slot="1234567890"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push();</script>
+</div>
+
+<footer><p>&copy; 2024 TopLists.cc</p></footer>
+<script src="search.js"></script>
+</body>
+</html>
